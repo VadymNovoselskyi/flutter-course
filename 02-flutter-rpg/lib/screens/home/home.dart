@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rpg/screens/create/create.dart';
 
 import 'package:flutter_rpg/screens/home/character_card.dart';
 import 'package:flutter_rpg/shared_ui/styled_button.dart';
@@ -17,7 +18,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const StyledTitle("Your characters!")),
+      appBar: AppBar(title: const StyledTitle("Your characters")),
       body: Container(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -34,7 +35,12 @@ class _HomeState extends State<Home> {
             ),
 
             StyledButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (ctx) => const Create()),
+                );
+              },
               child: const StyledHeading("Create new"),
             ),
           ],
