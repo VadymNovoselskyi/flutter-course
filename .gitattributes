@@ -15,3 +15,9 @@
 **/windows/**/*.cc linguist-generated
 **/windows/**/*.cpp linguist-generated
 **/windows/**/*.h linguist-generated
+
+# Flutter-generated Linux and Windows build scaffolding.
+**/linux/**/CMakeLists.txt linguist-generated
+**/linux/**/*.cmake linguist-generated
+**/windows/**/CMakeLists.txt linguist-generated
+**/windows/**/*.cmake linguist-generated
