@@ -1,0 +1,17 @@
+# Flutter-generated native platform source scaffolding (excluded from language stats).
+**/android/**/*.java linguist-generated
+**/android/**/*.kt linguist-generated
+**/ios/**/*.h linguist-generated
+**/ios/**/*.m linguist-generated
+**/ios/**/*.mm linguist-generated
+**/ios/**/*.swift linguist-generated
+**/linux/**/*.cc linguist-generated
+**/linux/**/*.h linguist-generated
+**/linux/**/*.cpp linguist-generated
+**/macos/**/*.h linguist-generated
+**/macos/**/*.m linguist-generated
+**/macos/**/*.mm linguist-generated
+**/macos/**/*.swift linguist-generated
+**/windows/**/*.cc linguist-generated
+**/windows/**/*.cpp linguist-generated
+**/windows/**/*.h linguist-generated
